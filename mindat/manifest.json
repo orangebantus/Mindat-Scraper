@@ -1,0 +1,27 @@
+{
+  "name": "Mindat_Scraper",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "Scrapes Mindat for Data.",
+  "permissions":["tabs"],
+  "content_scripts":[{
+  	"all_frames":true,
+  	"matches":["https://*.mindat.org/*"],
+  	"css":[],
+  	"js":["content-script.js"]
+  },
+  {
+  	     "matches": ["https://*.nytimes.com/*"],
+     "js": ["content-script.js"]
+  }
+],
+  "web_accessible_resources":[{
+      "resources":["IMA_Mineral_Names.txt"],
+      "matches":["https://*.mindat.org/*"],
+      "extension_ids":["kioonccjppjeocbbcgkciflamkhfhbca"]
+    }],
+  "action":{
+  	"default_popup":"hello.html",
+  	"default_icon":"hello_extensions.png"
+  }
+}

@@ -1,0 +1,16 @@
+[
+	"Abellaite",
+	"Gold",
+	"Zykaite",
+	"Abelsonite",
+	"Abenakiite-(Ce)",
+	"Adamsite-(Y)",
+	"Aegirine-augite",
+	"Agricolaite",
+	"Akaganéite",
+	"Analcime",
+	"Anapaite",
+	"Anatase",
+	"Anatolyite",
+	"Andalusite"
+]
